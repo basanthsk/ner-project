@@ -1,0 +1,48 @@
+[2022-06-26 15:05:43,756: INFO: data_ingestion]: 
+********************
+[2022-06-26 15:05:43,758: INFO: data_ingestion]: >>>>> stage STAGE_NAME started <<<<<
+[2022-06-26 15:05:43,762: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-26 15:05:43,762: ERROR: data_ingestion]: 'datset_name'
+Traceback (most recent call last):
+  File "F:\ineuron\NLP\ner-project\src\data_ingestion\data_ingestion.py", line 50, in <module>
+    main(config_path=parsed_args.config)
+  File "F:\ineuron\NLP\ner-project\src\data_ingestion\data_ingestion.py", line 37, in main
+    data_ingestion = DataIngestion(config)
+  File "F:\ineuron\NLP\ner-project\src\data_ingestion\data_ingestion.py", line 25, in __init__
+    self.subset = config["datset_name"]["subset"]
+KeyError: 'datset_name'
+[2022-06-26 15:06:04,269: INFO: data_ingestion]: 
+********************
+[2022-06-26 15:06:04,283: INFO: data_ingestion]: >>>>> stage STAGE_NAME started <<<<<
+[2022-06-26 15:06:04,287: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-26 15:06:04,287: ERROR: data_ingestion]: 'artifacts_dir'
+Traceback (most recent call last):
+  File "F:\ineuron\NLP\ner-project\src\data_ingestion\data_ingestion.py", line 50, in <module>
+    main(config_path=parsed_args.config)
+  File "F:\ineuron\NLP\ner-project\src\data_ingestion\data_ingestion.py", line 37, in main
+    data_ingestion = DataIngestion(config)
+  File "F:\ineuron\NLP\ner-project\src\data_ingestion\data_ingestion.py", line 27, in __init__
+    config["artifacts"]["artifacts_dir"],
+KeyError: 'artifacts_dir'
+[2022-06-26 15:06:35,913: INFO: data_ingestion]: 
+********************
+[2022-06-26 15:06:35,913: INFO: data_ingestion]: >>>>> stage STAGE_NAME started <<<<<
+[2022-06-26 15:06:35,919: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-26 15:06:40,928: WARNING: builder]: Using custom data configuration PAN-X.en-data_dir=artifacts%5Cdata
+[2022-06-26 15:07:53,128: INFO: data_ingestion]: dataset downloaded artifacts\data
+[2022-06-26 15:07:53,129: INFO: data_ingestion]: >>>>> stage STAGE_NAME completed!<<<<<
+
+[2022-06-26 15:09:54,982: INFO: data_ingestion]: 
+********************
+[2022-06-26 15:09:54,982: INFO: data_ingestion]: >>>>> stage STAGE_NAME started <<<<<
+[2022-06-26 15:09:54,987: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-26 15:11:10,245: INFO: data_ingestion]: dataset downloaded artifacts\data
+[2022-06-26 15:11:10,246: INFO: data_ingestion]: >>>>> stage STAGE_NAME completed!<<<<<
+
+[2022-06-26 15:26:13,821: INFO: data_ingestion]: 
+********************
+[2022-06-26 15:26:13,835: INFO: data_ingestion]: >>>>> stage STAGE_NAME started <<<<<
+[2022-06-26 15:26:13,839: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-26 15:27:20,629: INFO: data_ingestion]: dataset downloaded artifacts\data
+[2022-06-26 15:27:20,630: INFO: data_ingestion]: >>>>> stage STAGE_NAME completed!<<<<<
+

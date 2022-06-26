@@ -9,8 +9,8 @@ site_description: >-
   DESCRIPTION
 
 # Repository
-repo_name: basanthsk/REPO_NAME
-repo_url: https://github.com/basanthsk/REPO_NAME
+repo_name: basanthsk/NER_NLP
+repo_url: https://github.com/basanthsk/ner-project
 
 # Configuration
 theme:
